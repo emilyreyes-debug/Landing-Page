@@ -7,10 +7,84 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="logo">📚 BookLife</div>
+    <nav>
+      <a href="#books">Books</a>
+      <a href="#features">Why Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h1>Discover Your Next Favorite Book</h1>
+    <p>Explore thrilling stories, unforgettable characters, and endless adventures.</p>
+    <button>Browse Collection</button>
+  </section>
+
+  <section class="description" id="books">
+    <h2>Featured Books</h2>
+    <p>Handpicked reads that inspire imagination, emotion, and curiosity.</p>
+
+    <div class="book-grid">
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+      <div class="book"></div>
+    </div>
+  </section>
+
+
      <!-- Modal button -->
-    <button class="buyB>Open Modal"></button>
+    <button class="buyButton">Open Modal</button>
 
     <!-- Modal content -->
+     
     
+    
+    <section id="gabrielle">
+    <!-- Modal button -->
+    <button class="buyB">Open Modal</button>
+
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+    <div class="ModalBox">
+        <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></span>
+   <p>hi</p>
+    </div>
+
+
+
+    </div>
+</section>
 
 </html>
+
+
+    <script>
+        // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("buyB");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+    </script>
