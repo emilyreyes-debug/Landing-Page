@@ -1,6 +1,21 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #f1e5d7;
+}
+
+h1{
+    color: #819b92;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2{
+    color: #819b92;
+}
+
+p{
+    color: #708e84;
 }
 
 /* The Modal (background) */
@@ -20,17 +35,19 @@ body{
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+background: rgba(255, 255, 255, 0.28);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
   width: 80%;
   border-radius: 15px;
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: gray;
   float: right;
   font-size: 28px;
   font-weight: bold;
